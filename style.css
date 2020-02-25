@@ -65,3 +65,54 @@ img{
 .clear {
   clear:both;
 }
+
+
+/* -------------------------PARTE MODDATA---- */
+
+@media screen and (max-width: 420px ) {
+
+  .row {
+    background-color: lightblue;
+    max-width:100%;
+    margin-left:0px;
+    margin-right: 0;
+    margin-top: 0;
+
+}
+#lezioni .row > .left, #lezioni .row > .right{
+  width: 100%;
+  float: none;
+
+ }
+ #steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+  float: none;
+  width:100%;
+
+}
+.left>img {
+    height: 200px;
+
+}
+.right>img {
+    height: 120px;
+
+}
+.first>img {
+    height: 100px;
+}
+.second> img {
+    height: 100px;
+}
+.third> img {
+    height:100px;
+}
+#lezioni >h3 {
+    text-align: right;
+}
+
+
+
+
+}
